@@ -23,11 +23,6 @@ public class Tile : MonoBehaviour {
         _highlight.SetActive(false);
     }
 
-    private void OnMouseDown()
-    {
-        Debug.Log(this.name+" "+this._value+" "+this._side);
-    }
-
     public void setValue(int val)
     {
         _value = val;
